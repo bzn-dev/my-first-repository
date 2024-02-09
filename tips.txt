@@ -1,2 +1,4 @@
 https://gprm.itsvg.in/       // Site para criar perfil no git
 https://gchq.github.io/CyberChef/
+
+takedown
