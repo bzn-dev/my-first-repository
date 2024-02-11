@@ -9,7 +9,31 @@
     <title>My first HTML code</title>
 </head>
 <body>
-    <h1><i>Hello World!</i></h1>
-    <p>This is my code, enjoy it</p>
+    <h1 id="hello-world"><i>Hello World!</i></h1>
+    <p id="p1">This is my code, enjoy it</p><hr>
+    <a href="https://github.com/bzn-dev" target="_blank">My github profile</a>
+    <!-- <img src="/img/github-logo250px.png" alt=""> -->
+
+    <ol id="ol">
+        <li>HTML</li>  
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <ul id="ul">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <form id="form-name-mail" action="Get name/email"> <!-- formulário -->
+        <label id="label-name" for="name">Name:</label> <!-- label = sessão do formulário -->
+        <input type="text" name="nome" placeholder="Your name...">
+
+        <label id="label-mail" for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Your e-mail..."> <!-- placeholder = texto na caixa de input-->
+
+        <button type="submit">Submit</button>   
+    </form>
 </body>
 </html>

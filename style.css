@@ -1,0 +1,15 @@
+body{
+    background-color: #353535;
+    padding: 20%;
+}
+
+#hello-world, #p1, #ol, #ul, #label-name, #label-mail{
+    color: rgb(132, 0, 255);
+}
+
+#form-name-mail{
+    background-image: url(/img/github-logo250px.png);
+    background-position: center;
+    background-size: 20%;
+    font-weight: bold;
+}

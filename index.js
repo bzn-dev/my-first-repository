@@ -116,4 +116,3 @@ console.log(a && c);
 console.log(a && b && c);
 */
 
-
